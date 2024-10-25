@@ -40,6 +40,21 @@ nav ul li {
     padding: 0 10px;
 }
 
+.container {                            
+    min-height: 75vh;
+}
+
 .bottom {
     position: sticky;
+    height: 120px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#progressBar {
+    width: 80vh;
 }
